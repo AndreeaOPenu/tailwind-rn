@@ -1,6 +1,6 @@
 {
 	"name": "@andreeaopenu/tailwind-rn",
-	"version": "4.2.3",
+	"version": "4.2.4",
 	"description": "Use Tailwind CSS in React Native projects",
 	"license": "MIT",
 	"repository": "https://github.com/andreeaopenu/tailwind-rn.git",
@@ -18,7 +18,8 @@
 	},
 	"scripts": {
 		"build": "tsc",
-		"test": "xo && tsc && ava"
+		"test": "xo && tsc && ava",
+		"prepublish": "npm run build"
 	},
 	"files": [
 		"dist",
